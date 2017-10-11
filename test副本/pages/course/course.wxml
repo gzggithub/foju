@@ -1,0 +1,22 @@
+<view class="box">
+  <view class="course">
+    <image src="../../image/bg-person.jpeg"></image>
+    <text class="course_mes">课程详情</text>
+    <text class="rank">立即报名</text>
+  </view>
+  <view class="course">
+    <image src="../../image/bg-H5.jpeg"></image>
+    <text class="course_mes">课程详情</text>
+    <text class="rank">立即报名</text>
+  </view>
+  <view class="course">
+    <image src="../../image/bg-java.jpeg"></image>
+    <text class="course_mes">课程详情</text>
+    <text class="rank">立即报名</text>
+  </view>
+  <view class="course">
+    <image src="../../image/bg-go.jpeg"></image>
+    <text class="course_mes">课程详情</text>
+    <text class="rank">立即报名</text>
+  </view>
+</view>

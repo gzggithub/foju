@@ -1,0 +1,149 @@
+.slide-image{
+  width: 100%;
+  height: 100%;
+}
+.contester{
+  background-color: #ddd;
+}
+
+.classify{
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+.classify .item{
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.classify .item image{
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin: 0 auto;
+}
+
+.classify .item text{
+  color: #999;
+  font-size: 26rpx;
+}
+
+/*老师样式*/
+.section{
+  margin-top: 20px;
+  background-color: #fff;
+}
+.section .section-title{
+  color: blue;
+  font-weight: bold;
+  padding: 20px;
+}
+.teacher .content{
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+
+.teacher .content .item{
+  display: flex;
+}
+.teacher .content .item image{
+ width: 150px;
+  height: 100px;
+}
+.teacher .content .item .teacher-info{
+ width: 240px;
+ margin-left: 20rpx;
+}
+
+.teacher .content .item .teacher-info .name{
+  margin-bottom: 10px;
+}
+
+.teacher .content .item .teacher-info .post{
+  border: 1px solid blue;
+  border-radius: 30%;
+  font-size: 24rpx;
+}
+
+.teacher .content .item .teacher-info .intro{
+  font-size: 30rpx;
+  color: #808080;
+}
+/*老师样式end*/
+
+/*就业明星start*/
+.workstart{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 0 10px 10px 10px;
+}
+
+.workstart .section__title{
+  color: blue;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+.workstart .start{
+  display: flex;
+}
+.workstart .box{
+  font-size: 30rpx;
+  text-align: center;
+  background-color: #bbb;
+  width: 300rpx;
+  height: 400rpx;
+  margin: 0 10rpx;
+}
+.workstart .box .picture{
+  margin: 60rpx auto;
+}
+.workstart .box .message{
+  margin-top: 60rpx;
+  width: 300rpx;
+}
+.workstart .box .message .name text{
+  font-size: 30rpx;
+}
+.workstart .box .message .salary text{
+  font-size: 24rpx;
+  color: blue;
+}
+.workstart .box .message .company text{
+  font-size: 30rpx;
+}
+
+.workstart .box .picture image{
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 20rpx auto;
+}
+/*就业明星end*/
+
+
+/*校园风光start*/
+.school{
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 0 10px 10px 10px;
+}
+.school .school_title{
+  color: blue;
+  font-weight: bold;
+  padding:20px;
+}
+.school  .school_view{
+  text-align: center;
+  margin-top: -20rpx;
+}
+.school  .school_view image{
+  width: 220rpx;
+  height: 200rpx;
+  margin: 5rpx;
+}
+/*校园风光end*/

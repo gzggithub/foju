@@ -1,0 +1,9 @@
+.container{margin: 0;padding: 0}
+.container .logo{margin: 10px auto}
+.container .logo image{width: 180px;height: 150px;}
+.container .section01{height: 50px;width: 90%;line-height: 50px;border-bottom: 1px solid #ccc;position: relative}
+.container .section01 image{width: 20px;height: 20px}
+.container .section01 .area{font-size: 16px;width: 297px;padding-left: 20px}
+.container .section01 .once{display:inline-block;border: 1px solid black;background-color: skyblue;color: white;width: 80px;height: 30px;line-height: 30px;text-align: center}
+.container .left{position: absolute;left: 0;top: 12px}
+.container .right{position: absolute;right: 0;top: 12px}

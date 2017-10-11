@@ -1,0 +1,26 @@
+/* pages/course/course.wxss */
+.box{}
+.box .course{ position: relative;margin-bottom: 10px;}
+.box .course image{
+  width: 100%;
+  height: 250rpx;
+  }
+  .box .course text{
+  width: 170rpx;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid white;
+  border-radius: 60rpx;
+  position: absolute;
+  bottom: 50rpx;
+  color: white;
+  padding: 10rpx 20rpx;
+  font-size: 16px;
+  text-align: center;
+  }
+.box .course .course_mes{
+ left: 100rpx;
+}
+.box .course .rank{
+  right: 100rpx;
+}
